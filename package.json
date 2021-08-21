@@ -1,0 +1,40 @@
+{
+  "name": "shapley",
+  "version": "1.0.1",
+  "description": "A TypeScript/JavaScript library for calculating Shapley Value",
+  "main": "shapley.js",
+  "types": "shapley.d.ts",
+  "scripts": {
+    "build": "tsc --declaration",
+    "test": "jest --config jestconfig.json --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mettlex/shapley-value-js.git"
+  },
+  "keywords": [
+    "shapley-value",
+    "game-theory",
+    "fair",
+    "distribution"
+  ],
+  "author": "Mettle X",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mettlex/shapley-value-js/issues"
+  },
+  "homepage": "https://github.com/mettlex/shapley-value-js#readme",
+  "dependencies": {
+    "immutable": "^4.0.0-rc.14",
+    "mathjs": "^9.4.4"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.21",
+    "jsverify": "^0.8.4",
+    "@types/jest": "^27.0.1",
+    "@types/lodash": "^4.14.172",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.3.5"
+  }
+}
