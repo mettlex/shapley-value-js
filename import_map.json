@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "shapley": "./shapley.ts",
+    "immutable": "https://esm.sh/immutable",
+    "mathjs": "https://esm.sh/mathjs"
+  }
+}

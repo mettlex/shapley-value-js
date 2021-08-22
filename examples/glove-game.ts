@@ -1,10 +1,9 @@
-const { shapley } = require("shapley");
+import { shapley, RealNumber } from "shapley";
 
 // player 1, 2 & 3
 const N = [1, 2, 3];
 
-/** @param {Set<number>} S */
-const v = (S) => {
+const v = (S: Iterable<number>): RealNumber => {
   const A = Array.from(S);
 
   // players 1 and 2 have right-hand gloves and
