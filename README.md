@@ -1,4 +1,4 @@
-A TypeScript/JavaScript library for calculating Shapley Value
+A TypeScript/JavaScript library for calculating [Shapley Value](https://wikipedia.org/wiki/Shapley_value)
 
 ```sh
 npm install shapley
