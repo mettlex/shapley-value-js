@@ -2,7 +2,7 @@ A TypeScript/JavaScript library for calculating [Shapley Value](https://wikipedi
 
 ## Deno
 ```js
-import { shapley, RealNumber } from "https://deno.land/x/shapley@1.0.4/mod.ts";
+import { shapley, RealNumber } from "https://deno.land/x/shapley@1.0.5/mod.ts";
 ```
 ## Node.js
 ```sh
