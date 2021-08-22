@@ -1,5 +1,10 @@
 A TypeScript/JavaScript library for calculating [Shapley Value](https://wikipedia.org/wiki/Shapley_value)
 
+## Deno
+```js
+import { shapley, RealNumber } from "https://deno.land/x/shapley@1.0.4/mod.ts";
+```
+## Node.js
 ```sh
 npm install shapley
 ```
