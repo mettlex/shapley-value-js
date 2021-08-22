@@ -1,7 +1,7 @@
 {
   "imports": {
     "shapley": "./shapley.ts",
-    "immutable": "https://esm.sh/immutable",
-    "mathjs": "https://esm.sh/mathjs"
+    "immutable": "https://esm.sh/immutable@4.0.0-rc.14",
+    "mathjs": "https://esm.sh/mathjs@9.4.4"
   }
 }

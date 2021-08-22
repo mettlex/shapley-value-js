@@ -1,5 +1,5 @@
 {
-  "exclude": ["*.test.ts", "examples/"],
+  "exclude": ["*.test.ts", "examples/", "mod.ts"],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 

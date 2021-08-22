@@ -1,6 +1,6 @@
 {
   "name": "shapley",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A TypeScript/JavaScript library for calculating Shapley Value",
   "main": "shapley.js",
   "types": "shapley.d.ts",
@@ -8,7 +8,7 @@
     "build": "tsc --declaration",
     "test": "jest --config jestconfig.json --coverage",
     "examples": "NODE_PATH=./ node examples/*.js",
-    "ts-examples": "deno run --import-map=import_map.json examples/*.ts"
+    "ts-examples": "deno run --import-map=import_map.json --lock ./lock.json examples/*.ts"
   },
   "repository": {
     "type": "git",
