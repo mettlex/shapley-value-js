@@ -1,6 +1,6 @@
 {
   "name": "shapley",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A TypeScript/JavaScript library for calculating Shapley Value",
   "main": "shapley.js",
   "types": "shapley.d.ts",

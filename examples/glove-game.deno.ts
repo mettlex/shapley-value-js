@@ -1,4 +1,4 @@
-import { shapley, RealNumber } from "https://deno.land/x/shapley@1.0.4/mod.ts";
+import { shapley, RealNumber } from "https://deno.land/x/shapley@1.0.5/mod.ts";
 
 // player 1, 2 & 3
 const N = [1, 2, 3];
